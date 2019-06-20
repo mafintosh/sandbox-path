@@ -1,6 +1,6 @@
 {
   "name": "sandbox-path",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "require('path')-like module that always returns posix-style paths with configurable cwd",
   "main": "index.js",
   "dependencies": {},
