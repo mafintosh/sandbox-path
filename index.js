@@ -72,7 +72,7 @@ module.exports = class SandboxPath {
 
   _absolute (result) {
     if (!result.length) return this.cwd || this.sep
-    if (result[0] === '') return result.join(this.sep)
+    if (result[0] === '') return result.length === 1 ? this.sep : result.join(this.sep)
     return this.cwd + this.sep + result.join(this.sep)
   }
 

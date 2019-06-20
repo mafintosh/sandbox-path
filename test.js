@@ -9,6 +9,7 @@ tape('resolve', function (t) {
   t.same(path.resolve('/a/', '/b/'), '/b')
   t.same(path.resolve('../../a', 'b/../b'), '/a/b')
   t.same(path.resolve('../../a/.///../../../a', 'b/../b/././././/'), '/a/b')
+  t.same(path.resolve('//lz2tuure9', 'ic5qn2uzh8/../././..'), '/')
   t.end()
 })
 
