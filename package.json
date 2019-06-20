@@ -1,0 +1,24 @@
+{
+  "name": "sandbox-path",
+  "version": "0.0.0",
+  "description": "require('path')-like module that always returns posix-style paths with configurable cwd",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "tape": "^4.10.2"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/sandbox-path.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/sandbox-path/issues"
+  },
+  "homepage": "https://github.com/mafintosh/sandbox-path"
+}
